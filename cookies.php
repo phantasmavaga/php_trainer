@@ -38,7 +38,6 @@ SESSION:
 session_start();
 $_SESSION['kullanici'] = "Ahmet";
 // echo $_SESSION['kullanici'];
-
 /*
 COOKIE:
 - $_COOKIE tarayıcıda saklanır.
