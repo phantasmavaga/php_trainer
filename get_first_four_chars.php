@@ -1,6 +1,6 @@
 <?php
 $text = "Test edelim";
-$firstFour = substr($text, 0, 4); // Başlangıç pozisyonu 0, uzunluk 4
+$firstFour = substr($text, 0, 4); // Start location 0, length 4
 
-echo $firstFour; // Çıktı: Test
+echo $firstFour; // Output: Test
 ?>
