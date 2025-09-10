@@ -2,18 +2,18 @@
 session_start();
 
 /* 
-  $_SESSION: Sunucuda saklanır, güvenlidir, büyük veri tutabilir.
-  $_COOKIE: Tarayıcıda saklanır, kullanıcı görebilir, 4KB sınırı vardır.
+  $_SESSION: Stored on the server, secure, can hold large data.
+  $_COOKIE: Stored in the browser, visible to the user, has a 4KB limit.
 */
 
-// Oturum bilgisi atama ve yazdırma
+// Assigning and printing session information
 $_SESSION['kullanici'] = 'Ahmet';
 echo "Session kullanici: " . $_SESSION['kullanici'] . "<br>";
 
-// Cookie örneği (yorumda)
-// setcookie("kullanici", "Ahmet", time() + 3600); // 1 saatlik cookie
+// Cookie example
+// setcookie("kullanici", "Ahmet", time() + 3600); // for 1 hour cookie
 // echo $_COOKIE['kullanici'];
 
-// Çalışan PHP dosyasının adı
+// Name of executing php file
 echo "Çalışan dosya: " . $_SERVER['SCRIPT_NAME'] . "<br>";
 ?>
