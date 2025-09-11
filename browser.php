@@ -6,7 +6,6 @@ $librewolf = strpos($browser, "Librewolf") ? true : false;
 $firefox = strpos($browser, "Firefox") ? true : false;
 $safari = strpos($browser, "Safari") && !strpos($browser, "Chrome") ? true : false;  
 $edge = strpos($browser, "Edg") ? true : false; 
-
 echo ($msie) ? 'Internet Explorer kullanıyorsun' : null;
 echo ($google) ? "Chrome kullanıyorsun" : null;
 echo ($librewolf) ? "Librewolf kullanıyorsun" : null;
